@@ -5,6 +5,8 @@ import PortfolioSection from '../sections/PortfolioSection';
 import ServicesSection from '../sections/ServicesSection';
 import StatsSection from '../sections/StatsSection';
 import TestimonialsSection from '../sections/TestimonialsSection';
+import Globe from '../sections/globe';
+import Technologies from '../sections/Technologies';
 import Footer from '../sections/Footer';
 
 const Home = () => {
@@ -16,7 +18,9 @@ const Home = () => {
         <PortfolioSection />
         <ServicesSection />
         <StatsSection />
+        <Technologies />
         <TestimonialsSection />
+        <Globe />
         <Footer />
         </div> 
     </div>
